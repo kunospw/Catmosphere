@@ -1,0 +1,54 @@
+@import url("https://fonts.cdnfonts.com/css/edit-undo-brk");
+body {
+  font-family: "Edit Undo BRK", sans-serif;
+  /* font-family: 'Edit Undo Dot BRK', sans-serif; */
+}
+.container {
+  font-family: "El Salvador01", sans-serif;
+  text-align: center;
+  background-color: #b0578d; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding inside the box */
+  border: 1px solid #080000; /* Border with color */
+}
+.appetizer {
+  font-family: "NeverMind Bauhaus", sans-serif;
+  width: 900x; /* Width of the box */
+  height: 35px; /* Height of the box */
+  background-color: #facbea; /* Background color */
+  color: #3c3039; /* Text color */
+  height: 200px;
+  padding: 10px; /* Padding inside the box */
+  border: 5px solid #d988b9; /* Border with color */
+  border-radius: 10px;
+  box-shadow: 2px 4px 0px #b06190;
+  margin-bottom: 40px;
+}
+.mainDish {
+  font-family: "NeverMind Bauhaus", sans-serif;
+  width: 900x; /* Width of the box */
+  height: 35px; /* Height of the box */
+  background-color: #facbea; /* Background color */
+  color: #3c3039; /* Text color */
+  height: 200px;
+  padding: 10px; /* Padding inside the box */
+  border: 5px solid #d988b9; /* Border with color */
+  border-radius: 10px;
+  box-shadow: 2px 4px 0px #b06190;
+  margin-top: 40x;
+  margin-bottom: 40px;
+}
+.desserts {
+  font-family: "NeverMind Bauhaus", sans-serif;
+  width: 900x; /* Width of the box */
+  height: 35px; /* Height of the box */
+  background-color: #facbea; /* Background color */
+  color: #3c3039; /* Text color */
+  height: 200px;
+  padding: 10px; /* Padding inside the box */
+  border: 5px solid #d988b9; /* Border with color */
+  border-radius: 10px;
+  box-shadow: 2px 4px 0px #b06190;
+  margin-top: 40x;
+  margin-bottom: 40px;
+}

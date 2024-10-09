@@ -1,0 +1,148 @@
+/* style.css */
+@import url("https://fonts.cdnfonts.com/css/edit-undo-brk");
+
+body,
+.main,
+.contact,
+.aboutUs {
+  font-family: "Edit Undo BRK", sans-serif;
+}
+
+.navbar,
+.search-form,
+.sidebar,
+.ads,
+.footer,
+.info,
+.contactUs {
+  font-family: "Edit Undo BRK", sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(#f875aa, #eeafc8);
+  padding: 15px; /* Adjusted padding */
+  display: inline-block;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  margin-left: 90px;
+}
+
+.sidebar {
+  background-color: #aedefc;
+}
+
+.main {
+  background-color: #fff6f6;
+}
+
+.row {
+  display: flex;
+}
+
+.ads {
+  font-size: 20px;
+  background-color: #ffdfdf;
+}
+
+.footer {
+  background-color: #f875aa;
+  text-align: center;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+.contact,
+.aboutUs {
+  background-color: #fff6f6;
+  font-family: "El Salvador01", sans-serif;
+}
+
+.info {
+  background-color: #facbea;
+  background: linear-gradient(#facbea, #facbeaea);
+  color: #211d1d;
+  padding: 20px;
+}
+
+.contactUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b0578d;
+  color: #ffe4d6;
+  padding: 20px;
+  border: 5px solid #ffe4d6;
+  margin-bottom: 30px;
+}
+
+/* Add padding to navbar-brand and search-input */
+.navbar-brand {
+  font-size: 40px;
+  color: rgb(255, 245, 169);
+  padding-right: 20px; /* Adjusted padding */
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  margin-left: 90px;
+  padding: 10px; /* Adjusted padding */
+}
+
+.rounded-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  /* Adjust the value for roundness */
+  border: 2px solid #6c757d;
+  /* Outline color */
+  transition: opacity 0.5s ease;
+  /* Add the transition effect */
+}
+
+.aboutUs {
+  background-image: url("../assets/Create\ a\ pixel\ art\ b\ \(20\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Add fade up transition to the background image */
+  transition: opacity 0.5s ease;
+}
+
+.containers {
+  font-family: "El Salvador01", sans-serif;
+  text-align: center;
+  background-color: #b0578d;
+  /* Background color */
+  color: #fff;
+  /* Text color */
+  padding: 20px;
+  /* Padding inside the box */
+  border: 1px solid #080000;
+  /* Border with color */
+}
+/* Responsive styles from navbar.html */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px; /* Adjusted padding */
+  }
+  .navbar-brand {
+    font-size: 24px;
+  }
+  .search-form {
+    margin-top: 10px;
+  }
+  .search-input {
+    width: 100%;
+    margin-right: 0;
+  }
+}
